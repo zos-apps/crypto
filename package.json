@@ -1,0 +1,107 @@
+{
+  "name": "@zos-apps/crypto",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.crypto",
+    "name": "Crypto",
+    "icon": "₿",
+    "category": "finance",
+    "description": "Track cryptocurrency prices and portfolio",
+    "permissions": [
+      "network"
+    ],
+    "window": {
+      "defaultSize": {
+        "width": 500,
+        "height": 650
+      },
+      "resizable": true
+    },
+    "featured": true,
+    "tags": [
+      "crypto",
+      "bitcoin",
+      "blockchain",
+      "finance"
+    ],
+    "about": "Track cryptocurrency prices and manage your portfolio.",
+    "help": [
+      "Add coins to watchlist",
+      "View price charts",
+      "Track portfolio value"
+    ],
+    "docs": "https://zos-apps.github.io/crypto",
+    "site": "https://github.com/zos-apps/crypto",
+    "features": [
+      "Real-time prices",
+      "Portfolio tracking",
+      "Price alerts",
+      "Market data",
+      "Charts"
+    ],
+    "shortcuts": [
+      "⌘R Refresh",
+      "⌘F Search"
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/crypto"
+    },
+    "releaseDate": "2024-12-31",
+    "support": "https://github.com/zos-apps/crypto/issues",
+    "changelog": "https://github.com/zos-apps/crypto/releases"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@zos-apps/config": "workspace:*",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "description": "Track cryptocurrency prices and portfolio",
+  "homepage": "https://zos-apps.github.io/crypto",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/crypto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/crypto/issues"
+  },
+  "keywords": [
+    "zos",
+    "app",
+    "crypto",
+    "crypto",
+    "bitcoin",
+    "blockchain",
+    "finance"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
